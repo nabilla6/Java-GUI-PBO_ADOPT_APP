@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #eecb97;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdoptPage">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="List Hewan Yang Tersedia:" textFill="#a15f36">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Cooper Black" size="21.0" />
+               </font>
+            </Label>
+            <HBox prefHeight="102.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="129.0" fitWidth="119.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Desktop/81903-club-american-puppy-dog-kennel-png-free-photo.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="30.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <JFXCheckBox alignment="CENTER" checkedColor="#f50c0c" contentDisplay="BOTTOM" text="ANJING">
+                           <font>
+                              <Font name="Cooper Black" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="40.0" top="3.0" />
+                           </VBox.margin>
+                        </JFXCheckBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="100.0" fitWidth="132.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Desktop/cats-transparent-background-4.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="15.0" top="20.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <JFXCheckBox alignment="CENTER" checkedColor="#f50c0c" contentDisplay="BOTTOM" text="KUCING">
+                           <font>
+                              <Font name="Cooper Black" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="35.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXCheckBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="118.0" fitWidth="127.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Desktop/birds_PNG78.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="5.0" top="11.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <JFXCheckBox alignment="CENTER" checkedColor="#f50c0c" contentDisplay="BOTTOM" text="BURUNG">
+                           <font>
+                              <Font name="Cooper Black" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="20.0" />
+                           </VBox.margin>
+                        </JFXCheckBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="126.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Desktop/golden-hamster-teddy-bear-hamsters-pet-hamster.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="5.0" top="15.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <JFXCheckBox alignment="CENTER" checkedColor="#f50c0c" contentDisplay="BOTTOM" text="HAMSTER">
+                           <font>
+                              <Font name="Cooper Black" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="13.0" />
+                           </VBox.margin>
+                        </JFXCheckBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="202.0" prefWidth="600.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="102.0" fitWidth="127.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Desktop/286-2860452_rabbit-bunny-png-background-image-transparent-background-bunnies(1).png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="65.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <JFXCheckBox alignment="CENTER" checkedColor="#f50c0c" contentDisplay="BOTTOM" text="KELINCI">
+                           <font>
+                              <Font name="Cooper Black" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="70.0" />
+                           </VBox.margin>
+                        </JFXCheckBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="78.0" fitWidth="159.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Desktop/kisspng-komodo-dragon-lizard-chameleons-reptile-indonesiaku-me-leki-bolg-5d029ec1b93929.8518504715604528017587.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <JFXCheckBox alignment="CENTER" checkedColor="#f50c0c" contentDisplay="BOTTOM" text="BIAWAK">
+                           <font>
+                              <Font name="Cooper Black" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="35.0" top="15.0" />
+                           </VBox.margin>
+                        </JFXCheckBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="202.0" prefWidth="211.0">
+                     <children>
+                        <ImageView fitHeight="100.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Desktop/5c191b4187c99a022c4280c7.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <JFXCheckBox alignment="CENTER" checkedColor="#f50c0c" contentDisplay="BOTTOM" text="ULAR (PYTHON)">
+                           <font>
+                              <Font name="Cooper Black" size="14.0" />
+                           </font>
+                        </JFXCheckBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="147.0" prefWidth="600.0">
+               <children>
+                  <VBox prefHeight="32.0" prefWidth="467.0">
+                     <children>
+                        <Label text="*MOHON PILIH HEWAN YANG AKAN DI ADOPSI." textFill="#3f5fae">
+                           <VBox.margin>
+                              <Insets bottom="50.0" left="210.0" top="35.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Italic" size="11.5" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <JFXButton buttonType="RAISED" prefHeight="41.0" prefWidth="89.0" style="-fx-background-color: #8c7e7e;" text="NEXT">
+                     <font>
+                        <Font name="Britannic Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" top="20.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <AnchorPane prefHeight="57.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox layoutY="-25.0" prefHeight="25.0" prefWidth="600.0" style="-fx-background-color: #bf382c;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-25.0">
+                     <children>
+                        <Label text="by Nabilla ©2019">
+                           <VBox.margin>
+                              <Insets left="260.0" top="5.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Arial" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
